@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type = "text/javascript">
+        <!--
+           function sayThanks() {
+              alert("THANKS a lot for visiting us!")
+           }
+        //-->
+     </script>     
+  
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>newweb</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <style>
+        .container{
+            border: 5px solid rgb(6, 1, 1);
+            width: 100%;
+         
+        }
+        .row
+        {
+            border: 0 solid green;
+        }
+        .col,.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+            border: 0 solid red;
+        
+        }
+        body{
+            background-color: rgb(64, 63, 63);
+        }
+        #menu ul{
+            list-style: none;
+            margin: auto;
+    
+        }
+        #menu ul li{
+            display: inline-block;
+            
+        }
+        #header{
+            text-align: center;
+            background-image: url("yup.png");
+            background-size: 400px;
+            color: black;
+            padding: 10px 0 10px 10px;
+        }
+        #menu{
+            text-align: center;
+            color: rgb(247, 238, 238);
+            background-color: black;
+            padding: 7px 20px;
+            text-align: center;
+        
+            
+        }
+        #menu li{
+            margin-left: 2em;
+            margin-right: 2em;
+            padding: 3px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        #content{
+           /* background-image: url("imagesbeans.jpg");*/
+           background-color: black;
+            background-size: 400px;
+            color: white;
+            margin: 0;
+            padding: 2px;
+            text-align: center;
+        background-image: url("map-locator.gif") ;
+        }
+        
+        #content h2{
+            text-align: center;
+            color: rgb(242, 8, 8);
+            background-color: black;
+            font: italic bold;
+            padding: 2px;
+            margin-top: 8px;
+            margin-bottom:10px;
+        }
+
+        #sidebar{
+            color: white;
+           /* background-image: url("Roasted_coffee_beans.jpg");*/
+            background-size: 500px;
+            border: none;
+            
+        }
+        #sidebar ul li{
+            font-weight: 800;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+        #sidebar h2{
+            text-align: center;
+            color: black;
+            text-decoration: underline;
+            font: italic bold ;
+        }
+        #footer{
+            text-align: right;
+            color: white;
+            background-color: black;
+        }
+        #new h3{
+            background-color: brown;
+            color: black;
+            text-align: center;
+        }
+        .container2{
+            background-color: black;
+        }
+        .col-md-4{
+            color: white;
+            border: 1px solid brown;
+        }
+        .container2 h2{
+            text-align: center;
+            padding: auto;
+            color: black;
+        }
+        .container2 p{
+            color: rgb(249, 23, 23);
+            text-transform: capitalize;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 700;
+            font-style: italic;
+            font-size: large;
+
+        }
+        #special{
+            text-align: right;
+            color: white;
+            background-color: black;
+        }
+        ul{
+            list-style: none;
+        }
+        #content p{
+            color: black;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="header">
+            <div class="col-12">
+                <h1>COZY COFFEE</h1>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 white"  id="menu">
+                <ul>
+                    <li class="nav-item dropdown">
+                        <a style=color:white href="" class="nav-link dropdown-toggle" data-toggle="dropdown">CAFE MENU</a>
+                        <div class="dropdown-menu">
+                            <a style="color: rgb(247, 8, 8);" href="" class="dropdown-item">CAPPUCCINO</a>
+                            <a style="color: rgb(242, 10, 10);"  href="" class="dropdown-item">AMERICANO</a>
+                            <a style="color: rgb(247, 6, 6);"  href="" class="dropdown-item">ESPRESSO</a>
+                            <a  style="color: rgb(243, 8, 8);"  href="" class="dropdown-item">CAFFE MACCHIATO</a>
+                            <a style="color: rgb(238, 5, 5);" href="" class="dropdown-item">LATTE</a>
+                            <a style="color: rgb(250, 6, 6);" href="" class="dropdown-item">COZY MOCHA</a>
+                            <a style="color: rgb(246, 5, 5);"  href="" class="dropdown-item">CORTADO</a>
+                            <a  style="color: rgb(241, 5, 5);" href="" class="dropdown-item">FRAPPE</a>
+                            <a style="color: rgb(246, 9, 9);"  href="" class="dropdown-item">LUNGO</a>
+                            <a style="color: rgb(246, 9, 9);"  href="" class="dropdown-item">RED EYE</a>
+                            <a style="color: rgb(249, 7, 7);"  href="" class="dropdown-item">GALAO</a>
+                        </div>
+                    </li>
+                        <li><a style=color:white  href="">HOME</a></li>
+                    <li><a style=color:white href="">ABOUT US</a></li>
+                    <li><a style=color:white  href="">CONTACT</a></li>
+                    <li class="nav-item dropdown">
+                        <a style=color:white href=""   class="nav-link dropdown-toggle" data-toggle="dropdown">PRODUCTS</a>
+                    <div class="dropdown-menu">
+                        <a style="color: rgb(252, 8, 8);" href="" class="dropdown-item">COFFEE</a>
+                            <a style="color: rgb(243, 4, 4);"  href="" class="dropdown-item">DESSERT</a>
+                            <a style="color: rgb(246, 7, 7);"  href="" class="dropdown-item">DONUTS</a> 
+                    </div>
+                    </li>
+                    <li><a style=color:white href="">ORDER ONLINE</a></li>
+                </ul>
+                <form class="form-inline" action="">
+                    <input type ="search" class="form-control mr-sm-2" placeholder="search">
+                    <button class="btn btn-outline-success">search</button>
+                </form>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-8 " id="content">
+                    <h2>Start Your Day With a Black Coffee</h2>
+                   <p> WHERE COFFEE GROWS?<br>
+                    The coffee tree is a tropical evergreen shrub (genus Coffea) and grows between the Tropics of Cancer and Capricorn. The two most commercially important species grown are varieties of Coffea arabica (Arabicas) and Coffea canephora (Robustas)
+                    The average Arabica plant is a large bush with dark-green oval leaves. The fruits, or cherries, are rounded and mature in 7 to 9 months; they usually contain two flat seeds, the coffee beans. When only one bean develops it is called a peaberry.
+
+                    Robusta is a robust shrub or small tree that grows up to 10 metres high. The fruits are rounded and take up to 11 months to mature; the seeds are oval in shape and smaller than Arabica seeds.</p>
+                    </div>
+                    <div class="col-md-4" id="sidebar" style="background-image: url(cogif.gif); ">
+                        <h2>What's New</h2>
+                        <ul>
+                            <li><a style=color:black href="" >COFFEE</a></li>
+                            <li><a  style=color:black href="">DESSERT</a></li>
+                            <li><a style=color:black href="">DONUTS</a></li>
+                            
+                        </ul>
+                        <br>
+                        <h3 style="color: rgb(247, 23, 2);">You had me at espresso!</h3>
+                        <button type="button" class="btn btn-danger btn-md">Find a Cafe Near You</button><br>
+                        <br>
+                        <h3 style="color: rgb(247, 23, 2);">Shop our best sellings online Now!</h3>
+<button type="button" class="btn  btn-danger btn-md ">Shop Now</button>
+                    </div>
+                </div>
+                <div class="container2">
+                    <div class="row">
+                        <div class="col-md-4" style="background-image:url(images2.jpg);" > 
+                            <h2>COFFEE</h2><br>
+                            <br>
+                    
+                            <p>Today's good mood is sponsored by coffee.<br><br> Cafe timing:8:00 am to 10:00 pm<br>
+                                “ Stressed, blessed, and coffee obsessed.”</p>
+  
+                                <button type="button"  onclick="myCoffee()" value="ORDER NOW"  class="btn btn-danger btn-block" >ORDER NOW</button> 
+                                <script>
+                                    function myCoffee() {
+                                      window.location.href = "my coffee.html";
+                                    }
+                                  </script>
+                            </div>
+                            <div class="col-md-4" style="background-image: url(degif.gif);">
+                                <h2>DESSERT</h2>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <p>Serving up some sweet happiness.<br>
+                                <br>
+                                Desserts are the fairy tales of the kitchen.
+                             </p>
+                             <button type="button" onclick="myDessert()" value="ORDER NOW" class="btn btn-danger btn-block" >ORDER NOW</button> 
+                             <script>
+                                function myDessert() {
+                                  window.location.href = "my dessert.html";
+                                }
+                              </script>
+                            </div>
+                            <div class="col-md-4" style="background-image: url(udonuts.jpg);">
+                                <h2>DONUTS</h2>
+                                <br>
+                                <br>
+                                <br>
+                            
+                                <p>"Donut worry, be happy.<br>
+                                <br>
+                                Donut forget to treat yourself.</p>
+                                <button type="button" onclick="myDonut()" value="ORDER NOW" class="btn btn-danger btn-block">ORDER NOW</button>
+                                <script>
+                                    function myDonut() {
+                                      window.location.href = "my donut.html";
+                                    }
+                                  </script>
+                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="special">
+our social media sites: instagram@cozycoffee ; facebook@cozycoffee 
+                        </div>
+                    </div>
+                    <div class="row" id="footer">
+                        <div class="col-md-6">
+                            <a  href="" class="btn btn-primary btn-block">VISIT US</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="footer">
+                    <div class="col-12">
+                        ankita@gmail.com
+                        </div>
+                    
+    </div>
+    <div class="row" id="footer">
+        <div class="col-md-6">
+    <input type = "button" class="btn btn-danger btn-block" onclick = "sayThanks()" value = " THANK YOU " />
+        </div>
+    </div>
+</body>
+</html>
